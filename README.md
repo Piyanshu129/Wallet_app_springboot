@@ -72,6 +72,6 @@ A comprehensive Wallet Application built on **Spring Boot** providing essential 
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/wallet-app-springboot.git
+   git clone (https://github.com/Piyanshu129/Wallet_app_springboot.git)
    cd wallet-app-springboot
 
