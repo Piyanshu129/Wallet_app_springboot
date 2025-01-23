@@ -51,3 +51,27 @@ A comprehensive Wallet Application built on **Spring Boot** providing essential 
 
 ## Project Structure
 
+
+- **controller**: Houses REST controllers (`WalletController`, `AuthController`).  
+- **exception**: Contains custom exception classes (`InsufficientFundsException`, `UserNotFoundException`, etc.) and a global handler (`GlobalExceptionHandler`).  
+- **model**: Holds entity classes (`User`, `Transaction`).  
+- **repository**: Spring Data JPA repositories (e.g. `UserRepository`, `TransactionRepository`).  
+- **service**: Contains the business logic (e.g., transaction validation, user management).  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+1. **Java 8** or higher  
+2. **Maven** or **Gradle**  
+3. A **MySQL** (or other) database installed and configured (unless using H2 for testing)
+
+### Installation & Setup
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/wallet-app-springboot.git
+   cd wallet-app-springboot
+
